@@ -1,0 +1,8 @@
+To upgrade from 1.1.0 to 1.2, run the upgrade_to_1.2.sql 
+script in sql directory on the sphider database.
+
+To upgrade from 1.2.3 to 1.2.5, run the upgrade_to_1.2.5.sql
+script in sql directory on the sphider database.
+
+To upgrade from 1.2.5 to 1.2.6, run the upgrade_to_1.2.6.sql
+script in sql directory on the sphider database.
