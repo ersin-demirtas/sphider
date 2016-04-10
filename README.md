@@ -101,7 +101,7 @@ A powerful option Sphider supports is defining a must include / must not include
 
 ## Ignoring links
 
-Sphider respect rel="nofollow" attribute in <a href..> tags, so for example the link foo.html in <a href="foo.html" rel="nofollow> is ignored.
+Sphider respect rel="nofollow" attribute in <a href..> tags, so for example the link foo.html in ```<a href="foo.html" rel="nofollow>``` is ignored.
 
 ## Ignoring parts of a page
 
