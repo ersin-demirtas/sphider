@@ -99,7 +99,7 @@ Must include / must not include string list
 
 A powerful option Sphider supports is defining a must include / must not include string list for a site (click on Advanced options in Index screen for this). Any url containing a string in the 'must not include' list is ignored. Any url that does not contain any string in the 'must include' list is likewise ignored. All strings in the string list should be separated by a newline (enter). For example, to prevent a forum in your site from being indexed, you might add www.yoursite.com/forum to the "must not include" list. This means that all urls containing the string will be ignored and wont be indexed. Using Perl style regular expressions instead of literal strings is also supported. Every string starting with a '*' in front is considered as a regular expression, so that '*/[a]+/' denotes a string with one or more a's in it.
 
-##Ignoring links
+## Ignoring links
 
 Sphider respect rel="nofollow" attribute in <a href..> tags, so for example the link foo.html in <a href="foo.html" rel="nofollow> is ignored.
 
@@ -110,7 +110,7 @@ Sphider includes an option to exclude parts of pages from being indexed. This ca
 
 
 ----
-#Features
+# Features
 
 ## Spidering and indexing
 
